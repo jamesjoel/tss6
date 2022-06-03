@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            h1{
+                font-size: 60px;
+                font-family: Helvetica;
+                color: #ffffff;
+                text-shadow: 0px 0px 10px #000;
+                /*          l/r  b/t  blur  color*/
+                
+                transition: .5s;
+                
+            }
+            h1:hover{
+                
+                text-shadow: 0px 0px 20px #000;
+                transition: .5s;
+                color: #ccc;
+            }
+
+            .box{
+                height: 300px;
+                width: 300px;
+                /* background-color: #457811; */
+                border-radius: 20px;
+                box-shadow: 0px 0px 5px #000;
+                transition: .5s;
+                background-image: url("1.jpg");
+                background-size: 300px 300px;
+                font-size: 20px;
+                color: red;
+                direction: ltr;
+                
+            }
+            .box:hover{
+                box-shadow: 0px 0px 20px #000;
+                transition: .5s;
+                background-size: 400px 400px;
+                cursor: zoom-in;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Shadow in CSS</h2>
+
+        <br />
+        <h1>The Stepping Stone</h1>
+        <br />
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptas minus autem dolores perspiciatis officia possimus, ullam veritatis repellendus impedit animi enim sunt quisquam quia molestias et placeat rerum dignissimos!</div>
+    </body>
+</html>
